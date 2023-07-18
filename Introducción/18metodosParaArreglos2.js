@@ -1,14 +1,8 @@
-/* 📌 .indexOf()
-	Obtenemos el primer index de un elemento.
-	Si no hay elemento nos retorna -1
-*/
+/* 📌 .indexOf() Obtenemos el primer index de un elemento. Si no hay elemento nos retorna -1*/
 const nombres = ['Carlos', 'Rafael', 'Estefania', 'Rodrigo', 'Rafael', 'Gema', 'Diana', 'Sara'];
-// console.log(nombres.indexOf('Sergio'));
+console.log(nombres.indexOf('Sergio'));
 
-/* 
-	📌 .lastIndexOf() 
-	Obtenemos el último index de un elemento.
-*/
+/* 📌 .lastIndexOf() Obtenemos el último index de un elemento.*/
 // console.log(nombres.lastIndexOf('Rafael'));
 
 /* 	
@@ -49,18 +43,11 @@ const nombres = ['Carlos', 'Rafael', 'Estefania', 'Rodrigo', 'Rafael', 'Gema', '
 // });
 // console.log(nombres4Letras);
 
-/* 
-	📌 .includes()
-	Nos permite saber si el arreglo contiene un elemento especificado 
-*/
+/* 📌 .includes()Nos permite saber si el arreglo contiene un elemento especificado */
 // console.log(nombres.includes('Julio'));
 // console.log(nombres.includes('Carlos'));
 
-/* 
-	📌 .every()
-	Nos permite ejecutar un condicional sobre cada elemento y 
-	nos devuelve true si TODOS los elemento cumplieron la condición.
-*/
+/* 📌 .every() Nos permite ejecutar un condicional sobre cada elemento y nos devuelve true si TODOS los elemento cumplieron la condición.*/
 // const nombresValidos = nombres.every((nombre) => {
 // 	if (typeof nombre === 'string') {
 // 		return true;

@@ -39,6 +39,8 @@ const persona = {
 };
 
 // 📌 Function
+// los parentesis son para que la funcion haga algo dinamico
+// lo interesante es que permiten ejecutar codigo cuando yo lo decida
 function hola() {
 	console.log('Hola');
 }

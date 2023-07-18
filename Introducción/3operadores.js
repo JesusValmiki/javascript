@@ -15,6 +15,7 @@
 
 // let numero = 1;
 // numero--;
+// Es igual a numero = numero -1;
 
 /*📌 Operadores de Asignación
 	+=	Suma un numero al valor de una variable.
@@ -28,12 +29,13 @@ let numero = 10;
 // numero = numero + 5;
 numero -= 5;
 
+
 /* 📌 Operadores de Comparación:
 Nos permiten comparar valores
 	==		Igual que
-	===		Igual en valor y tipo de valor
+	===		Igual en valor(simbolo) y tipo de dato
 	!=		Diferente
-	!==		Diferente en valor y diferente en typo
+	!==		Diferente en valor(simbolo) y diferente en tipo de dato
 	>		Mayor que
 	<		Menor que
 	>=		Mayor o igual que
@@ -46,3 +48,4 @@ Nos permiten comparar valores
 // const resultado = 10 == 10; // True (Solo compara el valor)
 // const resultado = 10 === '10'; // false (compara si el valor es igual y si el tipo es igual)
 const resultado = 7 > 10 ? 'El primer valor es mayor que el segundo' : 'El segundo valor es mayor que el primero';
+console.log(resultado);

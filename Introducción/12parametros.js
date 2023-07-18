@@ -1,5 +1,5 @@
 /*
- - Parametros: los valores especificados en la definición
+ - Parametros: los valores especificados en la definición de la funcion
  - Argumentos: los valores que le pasamos a la función cuando la invocamos.
 */
 
@@ -10,7 +10,7 @@ const saludo = (nombre = 'amigo') => {
 // saludo('Carlos');
 // saludo('Alex');
 // saludo('Cesar');
-// saludo();
+saludo();
 
 /*
 	📌 Multiples parametros
